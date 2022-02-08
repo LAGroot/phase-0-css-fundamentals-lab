@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+#main-header {
+  color: rgb(197, 83, 83);
+}
+* {
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a {
+	padding-left:10px;
+	font-family: Cambria, serif;
+	font-size: 16px;
+	color: #f0ecec;
+}
+.navbar-inverse{
+  background-color:rgb(197, 83, 83);
+  margin-left: 210px;
+  margin-right: 210px;
+  text-align: center;
+  padding: 10px 0;
+}
+#figcaption{
+  font-size: 12px;
+}
+#textbox{
+  width: 800px;
+  margin: auto;
+}
+#details{
+  float: left;
+  margin: auto;
+  width: 25%;
+  background-color: rgb(216, 184, 247);
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
